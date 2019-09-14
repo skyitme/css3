@@ -1,0 +1,6 @@
+Position:fixed and animation{margin:right} have a bottom bug,they can`t work together at same page.
+
+If you use some animation in a page to do margin-right,and then you have some element`s style is position fixed,your element will be enlarged at that page.
+And bug is irreparable,because this is the css3.0`s bug,hope the next edition will fix that bug.
+Then you have to changge the animation action,eg:margin-top or another animation to fix that bug.
+This is my css3.0 experience,i hope it can help you.
